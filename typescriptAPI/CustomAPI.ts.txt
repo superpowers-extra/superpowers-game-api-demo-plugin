@@ -1,0 +1,20 @@
+// Example of a custom function
+function myFunction(someParameter: number) {
+  // Do something...
+  return someParameter;
+}
+// IMPORTANT so what you creates is global
+window.myFunction = myFunction;
+
+// Example of a custom class
+class MyClass {
+  someProperty: string;
+
+  constructor() {
+    this.someProperty = "Hello";
+  }
+  someMethod(someParameter: string) {
+    Sup.log(`${this.someProperty} do ${someParameter}`);
+  }
+}
+window.MyClass = MyClass;

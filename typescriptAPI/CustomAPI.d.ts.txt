@@ -1,0 +1,10 @@
+// Example of a custom function
+declare function myFunction(someParameter: number): number;
+
+// Example of a custom class
+declare class MyClass {
+  someProperty: string;
+
+  constructor();
+  someMethod(someParameter: string): void;
+}
