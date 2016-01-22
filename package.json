@@ -1,7 +1,7 @@
 {
   "name": "superpowers-game-api-demo-plugin",
   "description": "API demo plugin for Superpowers Game, the HTML5 2D+3D game maker",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "license": "ISC",
   "repository": {
     "type": "git",
